@@ -44,3 +44,52 @@ public class BFSAdjMatrix
 		sc.close();
 	}
 }
+output:
+enter number of vertices:
+6
+enter adjacency matrix:
+0
+1
+1
+1
+1
+0
+1
+0
+0
+1
+0
+0
+1
+0
+0
+1
+1
+1
+1
+1
+1
+0
+0
+1
+1
+0
+1
+0
+0
+0
+0
+0
+1
+1
+0
+0
+enter starting vertex for BFS:
+1
+BFS traversal starting from vertex 1 : 
+1 
+0 
+3 
+2 
+4 
+5 
