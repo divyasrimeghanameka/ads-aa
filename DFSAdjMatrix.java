@@ -36,3 +36,52 @@ public class DFSAdjMatrix
 		sc.close();
 	}
 }
+output:
+enter the number of vertices:
+6
+enter adjacency matrix:
+0
+1
+1
+1
+1
+0
+1
+0
+0
+1
+0
+0
+1
+0
+0
+1
+1
+1
+1
+1
+1
+0
+0
+1
+1
+0
+1
+0
+0
+0
+0
+0
+1
+1
+0
+0
+DFS traversal starting vertex for DFS:
+1
+DFS traversal starting from vertex 1 : 
+1 
+0 
+2 
+3 
+5 
+4 
