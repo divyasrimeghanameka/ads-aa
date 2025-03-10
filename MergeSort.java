@@ -71,3 +71,13 @@ class MergeSort
 		measureExeTime(worstCase.clone());
 	}
 }			
+output:
+Average case (Random Array):
+Execution time(in nanoseconds):20175
+Sorted Array:[68, 68, 68, 68, 68, 68, 68, 68, 79, 79]
+best case(sorted array):
+Execution time(in nanoseconds):6180
+Sorted Array:[9, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+worst case(reverse sorted array):
+Execution time(in nanoseconds):5772
+Sorted Array:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
