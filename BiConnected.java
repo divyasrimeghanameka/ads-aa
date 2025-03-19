@@ -83,3 +83,11 @@ class BiConnected
 		g.Bcc();
 	}
 }
+output:
+Biconnected components:
+3 
+1 
+2 
+1 
+0 
+
