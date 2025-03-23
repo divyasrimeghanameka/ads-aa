@@ -92,5 +92,11 @@ class MaxHeap
 		System.out.println("THe current size of the heap is "+h.curSize());
 		System.out.println("The current maximum element is "+h.getMax());
 	}
-}		
+}	
+/*output:
+The current size of the heap is 6
+The current maximum element is 14
+The current size of the heap is 5
+The current size of the heap is 7
+The current maximum element is 15*/
 				 																
