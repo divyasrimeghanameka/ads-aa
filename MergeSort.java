@@ -82,26 +82,27 @@ class MergeSort
 Enter the number of elements:
 4
 Enter the elements for the Average case (Random array):
-6
 3
-8
+2
+4
 1
 Average case (Random Array):
-Execution time (in nanoseconds): 60155
-Sorted Array: [1, 3, 6, 8]
+Execution time (in nanoseconds): 78961
+Sorted Array: [1, 2, 3, 4]
 Enter the elements for the Best case (Sorted array):
-6
-3
-8
 1
-Best case (Sorted Array):
-Execution time (in nanoseconds): 5341
-Sorted Array: [1, 3, 6, 8]
-Enter the elements for the Worst case (Reverse sorted array):
-6
+2
 3
-8
+4
+Best case (Sorted Array):
+Execution time (in nanoseconds): 11617
+Sorted Array: [1, 2, 3, 4]
+Enter the elements for the Worst case (Reverse sorted array):
+4
+3
+2
 1
 Worst case (Reverse Sorted Array):
-Execution time (in nanoseconds): 7575
-Sorted Array: [1, 3, 6, 8]*/
+Execution time (in nanoseconds): 7347
+Sorted Array: [1, 2, 3, 4]
+*/
