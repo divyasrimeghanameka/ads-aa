@@ -38,43 +38,63 @@ class QuickSort
 		System.out.println("Execution Time(in nanoseconds):"+duration);
 		System.out.println("Sorted Arrays: "+ Arrays.toString(arr));
 	}
-	public static void main(String args[])
-	{
-		Random random=new Random();
-		int n=10;
-		int[] avgCase=new int[n];
-		for(int i=0;i<n;i++)
-		{
-			avgCase[i]=random.nextInt(100);
-		}
-		System.out.println("Average Case(Random Array):");
-		measureExeTime(avgCase.clone());
-		int[] bestCase=new int[n];
-		for(int i=0;i<n;i++)
-		{
-			bestCase[i]=i;
-		}
-		System.out.println("BestCase(Sorted Array):");
-		measureExeTime(bestCase.clone());
-		int[] worstCase=new int[n];
-		for(int i=0;i<n;i++)
-		{
-			worstCase[i]=n-i-1;
-		}
-		System.out.println("worst Case(Reverse Sorted Array):");
-		measureExeTime(worstCase.clone());
-	}
+	 public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number of elements:");
+        int n = sc.nextInt();
+        int[] avgCase = new int[n];
+        System.out.println("Enter the elements for the Average case (Random array):");
+        for (int i = 0; i < n; i++)
+        {
+            avgCase[i] = sc.nextInt();
+        }
+        System.out.println("Average case (Random Array):");
+        measureExeTime(avgCase.clone());
+        int[] bestCase = new int[n];
+        System.out.println("Enter the elements for the Best case (Sorted array):");
+        for (int i = 0; i < n; i++)
+        {
+            bestCase[i] = sc.nextInt();
+        }
+        System.out.println("Best case (Sorted Array):");
+        measureExeTime(bestCase.clone());
+        int[] worstCase = new int[n];
+        System.out.println("Enter the elements for the Worst case (Reverse sorted array):");
+        for (int i = 0; i < n; i++)
+        {
+            worstCase[i] = sc.nextInt();
+        }
+        System.out.println("Worst case (Reverse Sorted Array):");
+        measureExeTime(worstCase.clone());
+
+        sc.close();
+    }
 }	
-
-
-
-
-OUTPUT:Average Case(Random Array):
-Execution Time(in nanoseconds):3818
-Sorted Arrays: [11, 18, 38, 50, 53, 55, 73, 78, 92, 98]
-BestCase(Sorted Array):
-Execution Time(in nanoseconds):3025
-Sorted Arrays: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-worst Case(Reverse Sorted Array):
-Execution Time(in nanoseconds):2612
-Sorted Arrays: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+/*output:
+Enter the number of elements:
+4
+Enter the elements for the Average case (Random array):
+6
+3
+8
+1
+Average case (Random Array):
+Execution Time(in nanoseconds):4166
+Sorted Arrays: [1, 3, 6, 8]
+Enter the elements for the Best case (Sorted array):
+6
+3
+8
+1
+Best case (Sorted Array):
+Execution Time(in nanoseconds):2484
+Sorted Arrays: [1, 3, 6, 8]
+Enter the elements for the Worst case (Reverse sorted array):
+6
+3
+8
+1
+Worst case (Reverse Sorted Array):
+Execution Time(in nanoseconds):2569
+Sorted Arrays: [1, 3, 6, 8]*/
