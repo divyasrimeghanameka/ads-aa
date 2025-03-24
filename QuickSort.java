@@ -75,26 +75,27 @@ class QuickSort
 Enter the number of elements:
 4
 Enter the elements for the Average case (Random array):
-6
 3
-8
+2
+4
 1
 Average case (Random Array):
-Execution Time(in nanoseconds):4166
-Sorted Arrays: [1, 3, 6, 8]
+Execution Time(in nanoseconds):3989
+Sorted Arrays: [1, 2, 3, 4]
 Enter the elements for the Best case (Sorted array):
-6
-3
-8
 1
-Best case (Sorted Array):
-Execution Time(in nanoseconds):2484
-Sorted Arrays: [1, 3, 6, 8]
-Enter the elements for the Worst case (Reverse sorted array):
-6
+2
 3
-8
+4
+Best case (Sorted Array):
+Execution Time(in nanoseconds):2470
+Sorted Arrays: [1, 2, 3, 4]
+Enter the elements for the Worst case (Reverse sorted array):
+4
+3
+2
 1
 Worst case (Reverse Sorted Array):
-Execution Time(in nanoseconds):2569
-Sorted Arrays: [1, 3, 6, 8]*/
+Execution Time(in nanoseconds):2327
+Sorted Arrays: [1, 2, 3, 4]
+*/
