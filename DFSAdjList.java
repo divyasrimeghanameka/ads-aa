@@ -3,7 +3,6 @@ class DFSAdjList
 {
 	private int v;
 	private LinkedList<Integer>[] adj;
-	@SuppressWarnings("unchecked")
 	public DFSAdjList(int v)
 	{
 		this.v=v;
