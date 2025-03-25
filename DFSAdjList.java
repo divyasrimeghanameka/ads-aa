@@ -21,7 +21,7 @@ class DFSAdjList
 	
 		boolean[]visited=new boolean[v];
 		Arrays.fill(visited,false);
-		java.util.Stack<Integer> stack=new java.util.Stack<>();
+		Stack<Integer> stack=new Stack<>();
 		stack.push(start);
 		visited[start]=true;
 		while(!stack.isEmpty())
