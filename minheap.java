@@ -93,3 +93,8 @@ class MinHeap
 		System.out.println("The current maximum element is "+h.getMin());
 	}
 }
+/*output:
+The current minimum element is 2
+The current size of the heap is 5
+THe current size of the heap is 7
+The current minimum element is 3*/
